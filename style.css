@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: 'Kanit', sans-serif;
+}
+
+h1 {
+	background-color: #91e4ff;
+}
+
+input {
+	font-family: 'Kanit', sans-serif;
+	border: none;
+	border-radius: 0.2rem;
+	padding: 0.2rem;
+	outline: none;
+	box-shadow: 1px 1px 5px black;
+}
+
+#submitButton {
+	font-family: 'Kanit', sans-serif;
+	border: none;
+	color: black;
+	background-color: #91e4ff;
+	border-radius: 8px;
+	padding: 0.2rem;
+	margin-left: 0.5rem;
+	cursor: pointer;
+	box-shadow: 1px 1px 5px black;
+}
+
+#submitButton:hover {
+	background-color: #40d0ff;
+	box-shadow: 4px 4px 5px black;
+}
